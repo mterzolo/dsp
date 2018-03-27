@@ -20,7 +20,25 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+
+pwd (show current working directory path)
+mkdir <dirname> (create a directory)
+rm -r <dirname> (remove a directory)
+touch <filename> (create a file)
+rm <filename> (delete a file)
+mv <filename> <newfilename> (rename a file)
+ls -a (list hidden files)
+cp <filename> <newpath>
+cd <path> (change directory)
+cd .. (move back one directory)
+vi <filename> (edit file)
+i (enter edit mode once in vi)
+esc (exit edit mode once in vi)
+:wq (save changes and exit vi)
+:q! (exit vi without saving)
+ 
+
 
 ---
 
@@ -35,7 +53,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+
+ls (list files in current directory
+ls -a (lists all files in directory including hidden files)
+ls -l (long:lists file permissions, last edit date, who editted, etc.)
+ls -lh (lists in long format plus readable file size)
+ls -lah (lists in long format plus hidden files plus readable file size)
+ls -t (sorts by time and date)
+ls -Glp (directories are colored blue, in long format, directories have / appended to directories)
 
 ---
 
@@ -43,7 +69,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+
+ls -d (only shows directories)
+ls -R (shows subdirectories as well)
+ls -m (shoes as a comma seperated list)
+ls -r (shows in reverse order)
+ls -t (shows ordered by most recently edited)
 
 ---
 
@@ -51,7 +83,13 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs extend the functionality of many commands to allow the output of other commands to become the inputs
+
+example:
+
+create three new directories named dir_1, dir_2, dir_3
+
+echo dir_1 dir_2 dir_3 | xargs mkdir
 
  
 
