@@ -35,9 +35,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > 
-
-pwd (show current working directory path)
+> > pwd (show current working directory path)
 mkdir <dirname> (create a directory)
 rm -r <dirname> (remove a directory)
 touch <filename> (create a file)
